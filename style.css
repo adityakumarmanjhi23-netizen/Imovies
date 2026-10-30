@@ -1,0 +1,20 @@
+:root{--bg:#1b2038;--card:#232a4a;--field:#2f3759;--red:#dc143c;--text:#eef0f8;--muted:#9aa3c7}
+body{background:var(--bg);color:var(--text);font-family:Poppins,system-ui,sans-serif}
+.navbar-im{background:#12162b;border-bottom:1px solid var(--red)}.brand{color:var(--text);font-weight:600;text-decoration:none;font-size:1.2rem}.brand b{color:var(--red)}
+.nav-ic{color:var(--text);font-size:1.15rem;padding:6px}.nav-ic:hover{color:var(--red)}
+.hl{color:var(--red)}.btn-red{background:var(--red);color:#fff;border:0;font-weight:500}.btn-red:hover{background:#b80f31;color:#fff}
+.btn-line{border:1px solid var(--text);color:var(--text);background:transparent}.btn-line:hover{background:var(--text);color:var(--bg)}
+.panel{background:var(--card);border:1px solid var(--red);border-radius:10px;padding:24px}
+.form-control,.form-select{background:var(--field);border:0;color:var(--text)}.form-control:focus,.form-select:focus{background:var(--field);color:var(--text);box-shadow:0 0 0 2px var(--red)}
+.form-control::placeholder{color:var(--muted)}label{font-size:.85rem;color:var(--muted)}
+.hero{min-height:70vh;display:flex;flex-direction:column;justify-content:center;background:linear-gradient(90deg,#000,#12162b)}
+.hero h1{font-size:clamp(2rem,6vw,3.5rem);font-weight:600}
+.banner{background:var(--red);text-align:center;padding:6px;font-weight:600;margin-bottom:20px}
+.poster{aspect-ratio:2/3;background:var(--field) center/cover;border-radius:8px;position:relative}
+.tag{font-size:.7rem;background:rgba(220,20,60,.25);color:#ff8fa5;border-radius:4px;padding:1px 6px;margin-right:4px}
+.fav{position:absolute;top:8px;right:8px;background:rgba(0,0,0,.6);border:0;color:#fff;border-radius:50%;width:34px;height:34px}.fav.on{color:var(--red)}
+.seat{width:34px;height:34px;margin:3px;border:2px solid var(--muted);border-radius:6px 6px 2px 2px;background:transparent;color:var(--text);font-size:11px}
+.seat.sel{background:var(--red);border-color:var(--red)}.seat.taken{background:#3a4166;border-color:#3a4166;color:#6b739a}
+.screen{height:6px;background:var(--red);border-radius:50%/100% 100% 0 0;margin:0 12% 24px}
+:focus-visible{outline:3px solid #fff;outline-offset:2px}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
